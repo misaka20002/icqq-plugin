@@ -11,14 +11,9 @@ QQ交流群~欢迎加入：`884587317`
 
 在`Yunzai-Bot`根目录执行，任选其一
 
-Gitee：
-```
-git clone --depth=1 https://gitee.com/Zyy955/icqq-plugin ./plugins/icqq-plugin
-```
-
 Github：
 ```
-git clone --depth=1 https://github.com/Zyy955/icqq-plugin ./plugins/icqq-plugin
+git clone --depth=1 https://github.com/misaka20002/icqq-plugin ./plugins/icqq-plugin
 ```
 
 ## 配置`qsign`地址
