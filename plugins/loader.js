@@ -35,6 +35,7 @@ Group.prototype.sendMsg = async function (content, source, anony = false) {
     const info = this._info
     /** 判断是否为频道 */
     if (info?.guild_id && info?.channel_id) {
+        logger.mark('info为：' + JSON.stringify(info))
         const { id, group_id, guild_id, channel_id, group_name } = info
         const data = {
             id: id,
